@@ -7,5 +7,11 @@ def hii():
     data = "hello how can i hlep you"
     return data
 
+@app.route('/sal', methods = ['GET']) 
+def sal():
+    salary = 30000
+    return salary
+
+
 if __name__ == '__main__':
     app.run(debug= True )
